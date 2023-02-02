@@ -1,1 +1,1 @@
-# Portrait-Chinois-MMI-
+# Portrait-Chinois-MMI
