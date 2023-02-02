@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Si j'étais...</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>      
+    
+
+    <div class="grande-image popup-invisible" >
+        <img class="image-grande" src="" alt=""> 
+    </div>
+
+    <div class="popup popup-invisible" >
+        <h1> Si j'étais...</h1>
+            <div class="Liens">
+
+            </div>
+    </div>
+    
+    <img class="Burger_menu off" src="Images/Burger_menu.png"  alt="Menu Dépliant">
+    <main>
+            
+        <div class="container  y-mandatory">
+            <div class="analogies">
+                        <h1> Portrait Chinois Noah Calmette </h1>
+            </div>
+        </div>
+
+        <button class="mentions off" id="fixed_button">Mentions Légales</button>  
+
+        <div class="formulaire">
+            <h1> Créez votre Analogie!</h1>
+            <label for="mail"> Adresse E-mail </label>
+            <input type="text" id="mail">
+            <label for="analogie"> Analogie: </label>
+            <input type="text" id="analogie">
+            <label for="valeurAnalogie"> Valeur Analogie: </label>
+            <input type="text" id="valeurAnalogie">
+            <label for="titre"> Titre: </label>
+            <input type="text" id="titre">
+            <label for="explication"> Explication: </label>
+            <input type="text" id="explication">
+            <input type="file" id="file" onchange="loadFile(event)" style="display: none;">
+            <label class="texte_upload" for="file" style="cursor: pointer;"> >>> Cliquez ici pour upload votre image <<< </label>
+            <p class="centrer"> </p>
+            <div class="centrer">
+                <button class="Envoyer" id="Envoyerform">Envoyer</button>
+            </div>
+        </div>
+
+
+
+        <div class="popup_mentions popup-invisible" >
+            <h1> Mentions Légales</h1>
+            <img class=right_arrow src="Images/Right_arrow.png" alt="Suivant">
+            <img class=left_arrow src="Images/Left_arrow.png" alt="Précédent">
+
+            <div class="contenu_mentions"> 
+
+            </div>
+        </div>
+
+
+
+    </main>
+</body>
+ 
+<script src="data.js"></script>
+<script src="script.js"></script>
+</html>

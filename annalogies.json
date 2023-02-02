@@ -1,0 +1,100 @@
+
+
+[
+
+    {"id":"Arcane",
+        
+    "titre":"Une Arcane",
+    
+    "analogie":"une arcane",
+    
+     "valeurAnalogie":"l'Empereur", 
+    
+     "explication":"car cette Arcane représente la stabilité et l'équilibre, cependant, elle inspire aussi une difficulté tres personelle, par exemple, la contradiction entre deux passions qui s'opposent. Elle montre aussi la nostalgie d'une personne, et l'importance de son passé pour ses expériences futures.",
+    
+     "image": "<img class=Imageclickable src=Images/Arcane.jpg alt=>"}, 
+    
+    
+    
+    {"id":"Jeu",
+        
+    "titre":"Un Jeu de Plateau",
+    
+    "analogie":"un jeu de plateau", 
+    
+    "valeurAnalogie":"les Echecs", 
+    
+    "explication":"car ce jeu allie stratégie, réflexion, et réflexes (dans le cas du blitz), tout en puisant aussi dans sa force mentale, car c'est une jeu ou l'on peut rapidement etre déconcentré et perdre par un coup de bluff de son adversaire.",
+    
+    "image": "<img class=Imageclickable src=Images/Chess.jpg alt=>"}, 
+    
+    
+    
+    {"id":"Couleur",
+        
+    "titre":"Une Couleur",
+    
+    "analogie":"une couleur",
+    
+     "valeurAnalogie":"le violet",
+    
+     "explication":"car cette couleur représente la douceur, c'est aussi un mélange entre couleur chaude (rouge, représentant le danger) et froide (bleu représentant le calme), montrant la polyvalence d'une personne, mais aussi sa réflexion avant de prendre un risque",
+    
+    "image" : "<img class=Imageclickable src=Images/Purple.jpg alt=>"}, 
+
+
+    {"id":"Animal",
+        
+    "titre":"Un Animal",
+    
+    "analogie":"un animal", 
+    
+    "valeurAnalogie":"une chevre",
+    
+    "explication":"car la chevre représente la timidité, la stabilité, et la sympathie d'une personne ainsi qu'un sens développé de la justice, elle montre aussi la créativité et la persévérance d'une personne.",
+    
+    "image": "<img class=Imageclickable src=Images/Goat.jpg alt=>"},
+    
+    
+    {"id":"Fleur",
+        
+    "titre":"Une Fleur",
+    
+    "analogie":"une fleur", 
+    
+    "valeurAnalogie":"une feuille d'érable",
+    
+    "explication":"car l'érable représente l'indépendance, la liberté, mais aussi la réserve, avec ses fruits qui tombent tard, et ses fleurs qui fleurissent lentement",
+    
+    "image": "<img class=Imageclickable src=Images/Erable.jpg alt=>"},
+
+    {
+        "id":"Perso de jeu vidéo",
+
+        "titre":"Perso de jeu vidéo ",
+
+        "analogie":"un personnage de jeux-vidéos",
+
+        "valeurAnalogie":"Kirby",
+
+        "explication":"car Kirby est un personnage toujours positif, qui voit toujours le bon coté des choses. Il ferra tout pour aider les autres, meme si il ne les aime pas. Il passe aussi la plus grande partie de son temps libre a manger, et a obtenirs des pouvoir spéciaux, le rendant donc polyvalent.",
+
+        "image":"<img class=Imageclickable src=Images/Kirby.gif alt=>"
+    },
+
+    {
+        "id":"Langue",
+
+        "titre":"Une Langue",
+
+        "analogie":"une langue",
+
+        "valeurAnalogie":"Le Coréen",
+
+        "explication":"car c'est une langue relativement facile a apprendre et riche! Pas de difficultés pour apprendre les temps, car il n'y a tout simplement pas de conjugaison. La langue est aussi tres fournie, on retrouve 3 types de langage, le langage soutenu reservé aux ainés, le langage 'normal' utilisable couramment, et enfin le langage familier, destiné a etre utilisé entre proches, ainsi, il existe par exemple 3 facons de dire 'Bonjour'. C'est donc une langue polyvalente, et tres réfléchie!",
+
+        "image":"<img class=Imageclickable src=Images/Langue.jpg alt=>"
+    }
+
+    
+]

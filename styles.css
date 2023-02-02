@@ -1,0 +1,315 @@
+@font-face {
+    font-family: 'omori_game_regular';
+    src: url('Fonts/omori_game-webfont.woff2') format('woff2'),
+         url('Fonts/omori_game-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+    display: flex;
+    background: rgb(73,48,107);
+    background: url("Calligraphie/Background2.png"),linear-gradient(180deg, rgba(73,48,107,1) 0%, rgba(122,87,157,1) 17%, rgba(170,125,206,1) 34%, rgba(244,165,174,1) 51%, rgba(247,183,190,1) 69%, rgba(249,200,206,1) 85%, rgba(245,215,227,1) 100%) center;
+    font-family: 'omori_game_regular';
+    font-size: 25px;
+    background-size: contain;
+
+
+
+
+
+}
+
+section img {
+    max-width: 180px;
+    max-height: 320px;
+    float: left;
+    margin-right: 15px;
+    cursor:url("Images/cursor2.png")  4 12,auto;
+
+}
+
+section {
+    display: flex;
+    border-radius: 50px;
+   align-items:center;
+   margin: 0 auto;
+   margin-bottom: 50%;
+   margin-top: 20%;
+   position: relative;
+   max-height: 400px;
+   max-width: 740px;
+   background-color: rgba(255, 255, 255, .2);
+   padding-left: 20px;
+   padding-right: 20px;
+   box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, .3);
+   backdrop-filter:blur(100px);
+   overflow-wrap: break-word;
+
+
+
+
+}
+
+main {
+    margin: 0 auto;
+    width: 768px;   
+}
+
+.Burger_menu {
+    z-index: 2;
+    max-height: 64px;
+    max-width: 64px;
+    margin: 20px;
+    left: 5%;
+    position: fixed;
+    transition: all 0.5s;
+}
+
+.on {
+    filter: invert();
+}
+
+.on:hover {
+    cursor:url("Images/cursor2.png")  4 12,auto;
+}
+
+.off:hover {
+    cursor:url("Images/cursor2.png")  4 12,auto;
+    filter: invert();
+}
+
+
+
+.popup-visible {
+    display: block;
+}
+
+.popup-invisible {
+    display: none;
+}
+
+.popup {
+    background-color: rgba(255,255,255,1);
+    position: fixed;
+    left: 1%;
+    right: 0;
+    top: 15%;
+    bottom: 0;
+    z-index: 10;
+    width: 300px;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    border-radius: 20px;
+
+}
+
+.grande-image {
+    position: fixed;
+    margin-left: 25%;
+    margin-right: 25%;
+    top: 20%;
+    bottom: 0;
+    z-index: 10;
+    width: 768px;
+    height: 500px;
+    overflow: hidden
+}
+
+.grande-image img {
+    min-width: 100%;
+    min-height: 100%;
+    object-fit:cover;
+    max-width: 768px;
+    max-height: 600px;
+}
+
+main section {
+    height: 100vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+}
+
+.analogies h1 {
+    font-size: 60px;
+    position: absolute;
+    top: 0%;
+    transition: all 0.5s;
+}
+
+.analogies h1:hover {
+    color:cadetblue;
+    font-size: 65px;
+    transition: all 0.5s;
+    top:-2%;
+    cursor:default;
+}
+
+.Liens {
+    position: absolute;
+    top:20%
+}
+
+.popup h1 {
+    text-align: center;
+}
+
+.Liens h2 {
+    margin: 10px;
+}
+
+.Liens a {
+    text-decoration: none;
+    color: black;
+    transition: all .5s;
+}
+
+.Liens a:hover {
+    color: palevioletred;
+    transition: all .5s;
+}
+
+.formulaire p {
+    width: 768px;
+    overflow-wrap: break-word;
+    
+}
+
+.formulaire {
+    width: 768px;
+    margin: 0 auto; 
+    border: solid 1px #9e9e9e;
+    border-radius: 20px;
+    margin-bottom: 50%;
+}
+
+.formulaire h1 {
+    text-align: center;
+}
+
+input:not(.Envoyer) {
+    margin: auto;
+    width: 300px;
+    height: 35px;
+    border: solid 1px #9e9e9e;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    background-color: rgba(247,183,190,0.5)
+}
+
+input:not(.Envoyer), label {
+    display:block;
+    text-align: center;
+}   
+
+.Envoyer {
+    font-family: 'omori_game_regular';
+    display: inline-block;
+    text-align: center;
+    background-color: #ECACD3;
+    color: black;   
+    font-size: 2rem;
+    box-shadow: 3px 3px 0px 2px #A62675;    
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+    width: 300px;
+    
+}
+
+
+.centrer {
+    text-align: center;
+}
+
+.Envoyer:hover {
+    font-family: 'omori_game_regular';
+    display: inline-block;
+    text-align: center;
+    background-color: #A62675;
+    box-shadow: 3px 3px 0px 2px #EBADD4;
+    color: white;  
+    font-size: 2rem;
+    margin-top: 20px;
+}
+
+.texte_upload {
+    text-decoration: underline;
+    font-size: 1.80rem;
+    transition: all 0.5s;
+}
+
+.texte_upload:hover {
+    font-size: 2rem;
+    color: #A62675;
+    transition: all 0.5s;
+
+
+}
+
+#contenu {
+    height: 50%;
+    margin: 0em;
+    overflow-y: auto;
+ }
+
+.titre_preview {
+    position:absolute;
+    margin-top: 365%;
+
+}
+
+.popup_mentions {
+    background-color: rgba(255,255,255,1);
+    position: fixed;
+    margin: 0 auto;
+    top: 20%;
+    bottom: 0;
+    z-index: 10;
+    width: 768px;
+    height: 500px;
+    padding-left: 10px;
+    padding-right: 10px ;
+    border-radius: 20px;
+
+}
+
+.popup_mentions img {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top:45%
+}
+
+.right_arrow {
+    right: 0;
+}
+
+.contenu_mentions {
+    margin-left: 64px;
+    margin-right: 64px;
+    overflow-y: auto;
+    width: 612px;
+    height: 350px;
+}
+
+#fixed_button {
+        position: fixed;
+        bottom: 0px;
+        left: 0px; 
+        font-size: 2rem;
+        font-family: omori_game_regular;
+        background-color: rgba(255, 255, 255, 0);
+        backdrop-filter:blur(10px);
+    }
+
+.y-mandatory {
+    scroll-snap-type: y mandatory;
+}
+ 
+ 
